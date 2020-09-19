@@ -539,6 +539,7 @@
 /* Begin XCBuildConfiguration section */
 		342545B31CE525B200336074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -564,6 +565,7 @@
 		};
 		342545B41CE525B200336074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -589,6 +591,7 @@
 		};
 		343F51101C8DAEEC0028C434 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -610,6 +613,7 @@
 		};
 		343F51111C8DAEEC0028C434 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
