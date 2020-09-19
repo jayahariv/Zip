@@ -80,6 +80,7 @@
 		07B235FE21C2C674001E8634 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		07B235FF21C2C674001E8634 /* unzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
 		07B2360121C2C674001E8634 /* ioapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = WorkaroundConfig.xcconfig; sourceTree = "<group>"; };
 		303B4F6D1E4CBE5000DC1633 /* permissions.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = permissions.zip; sourceTree = "<group>"; };
 		305237171E64595700CA46D1 /* unsupported_permissions.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = unsupported_permissions.zip; sourceTree = "<group>"; };
 		342545B51CE525B200336074 /* Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +225,7 @@
 				343625BA1C5827DC0023C4C6 /* ZipUtilities.swift */,
 				3443A3F51C4AB8A3004AD173 /* QuickZip.swift */,
 				3430F61F1C45C805007473A6 /* libz.tbd */,
+				1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */,
 			);
 			path = Zip;
 			sourceTree = "<group>";
@@ -780,6 +782,7 @@
 		};
 		347E3A891C1DFFB500A11FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -802,6 +805,7 @@
 		};
 		347E3A8A1C1DFFB500A11FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB271292515B697005C830C /* WorkaroundConfig.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
